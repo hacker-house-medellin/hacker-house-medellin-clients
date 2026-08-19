@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(hacker_house_medellin_client C)
+add_library(hacker_house_medellin_client src/hacker_house_medellin_client.c)
+target_include_directories(hacker_house_medellin_client PUBLIC include)
+target_compile_features(hacker_house_medellin_client PUBLIC c_std_11)

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(hacker_house_medellin_client_cpp CXX)
+add_library(hacker_house_medellin_client_cpp INTERFACE)
+target_include_directories(hacker_house_medellin_client_cpp INTERFACE include)
+target_compile_features(hacker_house_medellin_client_cpp INTERFACE cxx_std_17)
